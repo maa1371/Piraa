@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8E87281B67ABC100BDA790 /* stars-empty.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8E87271B67ABC100BDA790 /* stars-empty.png */; };
+		EE8E872A1B67AC0900BDA790 /* s.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8E87291B67AC0900BDA790 /* s.png */; };
+		EEBBD8C71B674EA900E772A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBBD8C61B674EA900E772A9 /* main.m */; };
+		EEBBD8CA1B674EA900E772A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBBD8C91B674EA900E772A9 /* AppDelegate.m */; };
+		EEBBD8CD1B674EA900E772A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBBD8CC1B674EA900E772A9 /* ViewController.m */; };
+		EEBBD8D01B674EA900E772A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBBD8CE1B674EA900E772A9 /* Main.storyboard */; };
+		EEBBD8D21B674EA900E772A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBBD8D11B674EA900E772A9 /* Images.xcassets */; };
+		EEBBD8D51B674EA900E772A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEBBD8D31B674EA900E772A9 /* LaunchScreen.xib */; };
+		EEBBD8E11B674EA900E772A9 /* PiraaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBBD8E01B674EA900E772A9 /* PiraaTests.m */; };
+		EEBBD8EE1B67512400E772A9 /* barberShopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEBBD8EC1B67512400E772A9 /* barberShopTableViewCell.xib */; };
+		EEBBD8F41B6755EA00E772A9 /* bc.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBBD8F31B6755EA00E772A9 /* bc.png */; };
+		EEBBD8F81B675C1500E772A9 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBBD8F71B675C1500E772A9 /* star.png */; };
+		EEBBD8FB1B676AFC00E772A9 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBBD8F91B676AFC00E772A9 /* menu.png */; };
+		EEBBD8FC1B676AFC00E772A9 /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBBD8FA1B676AFC00E772A9 /* filter.png */; };
+		EEBBD9021B67719F00E772A9 /* arrow_back.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBBD9011B67719F00E772A9 /* arrow_back.png */; };
+		EEBBD9131B67885200E772A9 /* barberShopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBBD9111B67885200E772A9 /* barberShopTableViewCell.m */; };
+		EEBBD9181B678E4000E772A9 /* customSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBBD9171B678E4000E772A9 /* customSegue.m */; };
+		EEBBD91B1B67925D00E772A9 /* navigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBBD91A1B67925D00E772A9 /* navigationViewController.m */; };
+		EEBBD91E1B6792FD00E772A9 /* unwindSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBBD91D1B6792FD00E772A9 /* unwindSegue.m */; };
+		EEBBD9211B67979700E772A9 /* BarberShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBBD9201B67979700E772A9 /* BarberShopViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEBBD8DB1B674EA900E772A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEBBD8B91B674EA900E772A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEBBD8C01B674EA900E772A9;
+			remoteInfo = Piraa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE8E87271B67ABC100BDA790 /* stars-empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stars-empty.png"; sourceTree = "<group>"; };
+		EE8E87291B67AC0900BDA790 /* s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s.png; sourceTree = "<group>"; };
+		EEB9A4A71B68ABE500C31DBF /* iranian_sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iranian_sans.ttf; sourceTree = "<group>"; };
+		EEBBD8C11B674EA900E772A9 /* Piraa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piraa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBBD8C51B674EA900E772A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBBD8C61B674EA900E772A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEBBD8C81B674EA900E772A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEBBD8C91B674EA900E772A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEBBD8CB1B674EA900E772A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEBBD8CC1B674EA900E772A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEBBD8CF1B674EA900E772A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEBBD8D11B674EA900E772A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEBBD8D41B674EA900E772A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EEBBD8DA1B674EA900E772A9 /* PiraaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiraaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBBD8DF1B674EA900E772A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBBD8E01B674EA900E772A9 /* PiraaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiraaTests.m; sourceTree = "<group>"; };
+		EEBBD8EC1B67512400E772A9 /* barberShopTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = barberShopTableViewCell.xib; sourceTree = "<group>"; };
+		EEBBD8F31B6755EA00E772A9 /* bc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc.png; sourceTree = "<group>"; };
+		EEBBD8F71B675C1500E772A9 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		EEBBD8F91B676AFC00E772A9 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		EEBBD8FA1B676AFC00E772A9 /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter.png; sourceTree = "<group>"; };
+		EEBBD9011B67719F00E772A9 /* arrow_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_back.png; sourceTree = "<group>"; };
+		EEBBD9101B67885200E772A9 /* barberShopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = barberShopTableViewCell.h; path = ../barberShopTableViewCell.h; sourceTree = "<group>"; };
+		EEBBD9111B67885200E772A9 /* barberShopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = barberShopTableViewCell.m; path = ../barberShopTableViewCell.m; sourceTree = "<group>"; };
+		EEBBD9161B678E4000E772A9 /* customSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customSegue.h; sourceTree = "<group>"; };
+		EEBBD9171B678E4000E772A9 /* customSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customSegue.m; sourceTree = "<group>"; };
+		EEBBD9191B67925D00E772A9 /* navigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navigationViewController.h; sourceTree = "<group>"; };
+		EEBBD91A1B67925D00E772A9 /* navigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = navigationViewController.m; sourceTree = "<group>"; };
+		EEBBD91C1B6792FD00E772A9 /* unwindSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unwindSegue.h; sourceTree = "<group>"; };
+		EEBBD91D1B6792FD00E772A9 /* unwindSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = unwindSegue.m; sourceTree = "<group>"; };
+		EEBBD91F1B67979700E772A9 /* BarberShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarberShopViewController.h; sourceTree = "<group>"; };
+		EEBBD9201B67979700E772A9 /* BarberShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarberShopViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEBBD8BE1B674EA900E772A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBBD8D71B674EA900E772A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEBBD8B81B674EA900E772A9 = {
+			isa = PBXGroup;
+			children = (
+				EEBBD9191B67925D00E772A9 /* navigationViewController.h */,
+				EEBBD91A1B67925D00E772A9 /* navigationViewController.m */,
+				EEBBD8C31B674EA900E772A9 /* Piraa */,
+				EEBBD8DD1B674EA900E772A9 /* PiraaTests */,
+				EEBBD8C21B674EA900E772A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEBBD8C21B674EA900E772A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEBBD8C11B674EA900E772A9 /* Piraa.app */,
+				EEBBD8DA1B674EA900E772A9 /* PiraaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEBBD8C31B674EA900E772A9 /* Piraa */ = {
+			isa = PBXGroup;
+			children = (
+				EEBBD8C81B674EA900E772A9 /* AppDelegate.h */,
+				EEBBD8C91B674EA900E772A9 /* AppDelegate.m */,
+				EEBBD8CB1B674EA900E772A9 /* ViewController.h */,
+				EEBBD8CC1B674EA900E772A9 /* ViewController.m */,
+				EEBBD91F1B67979700E772A9 /* BarberShopViewController.h */,
+				EEBBD9201B67979700E772A9 /* BarberShopViewController.m */,
+				EEBBD8CE1B674EA900E772A9 /* Main.storyboard */,
+				EEBBD91C1B6792FD00E772A9 /* unwindSegue.h */,
+				EEB9A4A71B68ABE500C31DBF /* iranian_sans.ttf */,
+				EEBBD91D1B6792FD00E772A9 /* unwindSegue.m */,
+				EEBBD9161B678E4000E772A9 /* customSegue.h */,
+				EEBBD9171B678E4000E772A9 /* customSegue.m */,
+				EEBBD9101B67885200E772A9 /* barberShopTableViewCell.h */,
+				EEBBD9111B67885200E772A9 /* barberShopTableViewCell.m */,
+				EEBBD8EC1B67512400E772A9 /* barberShopTableViewCell.xib */,
+				EEBBD8D11B674EA900E772A9 /* Images.xcassets */,
+				EEBBD8D31B674EA900E772A9 /* LaunchScreen.xib */,
+				EEBBD9151B678C3F00E772A9 /* images */,
+				EEBBD8C41B674EA900E772A9 /* Supporting Files */,
+			);
+			path = Piraa;
+			sourceTree = "<group>";
+		};
+		EEBBD8C41B674EA900E772A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEBBD8C51B674EA900E772A9 /* Info.plist */,
+				EEBBD8C61B674EA900E772A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEBBD8DD1B674EA900E772A9 /* PiraaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEBBD8E01B674EA900E772A9 /* PiraaTests.m */,
+				EEBBD8DE1B674EA900E772A9 /* Supporting Files */,
+			);
+			path = PiraaTests;
+			sourceTree = "<group>";
+		};
+		EEBBD8DE1B674EA900E772A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEBBD8DF1B674EA900E772A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEBBD9151B678C3F00E772A9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E87271B67ABC100BDA790 /* stars-empty.png */,
+				EE8E87291B67AC0900BDA790 /* s.png */,
+				EEBBD8F31B6755EA00E772A9 /* bc.png */,
+				EEBBD8F71B675C1500E772A9 /* star.png */,
+				EEBBD9011B67719F00E772A9 /* arrow_back.png */,
+				EEBBD8F91B676AFC00E772A9 /* menu.png */,
+				EEBBD8FA1B676AFC00E772A9 /* filter.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEBBD8C01B674EA900E772A9 /* Piraa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEBBD8E41B674EA900E772A9 /* Build configuration list for PBXNativeTarget "Piraa" */;
+			buildPhases = (
+				EEBBD8BD1B674EA900E772A9 /* Sources */,
+				EEBBD8BE1B674EA900E772A9 /* Frameworks */,
+				EEBBD8BF1B674EA900E772A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Piraa;
+			productName = Piraa;
+			productReference = EEBBD8C11B674EA900E772A9 /* Piraa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEBBD8D91B674EA900E772A9 /* PiraaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEBBD8E71B674EA900E772A9 /* Build configuration list for PBXNativeTarget "PiraaTests" */;
+			buildPhases = (
+				EEBBD8D61B674EA900E772A9 /* Sources */,
+				EEBBD8D71B674EA900E772A9 /* Frameworks */,
+				EEBBD8D81B674EA900E772A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEBBD8DC1B674EA900E772A9 /* PBXTargetDependency */,
+			);
+			name = PiraaTests;
+			productName = PiraaTests;
+			productReference = EEBBD8DA1B674EA900E772A9 /* PiraaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEBBD8B91B674EA900E772A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Gereh;
+				TargetAttributes = {
+					EEBBD8C01B674EA900E772A9 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					EEBBD8D91B674EA900E772A9 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = EEBBD8C01B674EA900E772A9;
+					};
+				};
+			};
+			buildConfigurationList = EEBBD8BC1B674EA900E772A9 /* Build configuration list for PBXProject "Piraa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEBBD8B81B674EA900E772A9;
+			productRefGroup = EEBBD8C21B674EA900E772A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEBBD8C01B674EA900E772A9 /* Piraa */,
+				EEBBD8D91B674EA900E772A9 /* PiraaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEBBD8BF1B674EA900E772A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8E872A1B67AC0900BDA790 /* s.png in Resources */,
+				EEBBD8F41B6755EA00E772A9 /* bc.png in Resources */,
+				EEBBD9021B67719F00E772A9 /* arrow_back.png in Resources */,
+				EEBBD8D01B674EA900E772A9 /* Main.storyboard in Resources */,
+				EE8E87281B67ABC100BDA790 /* stars-empty.png in Resources */,
+				EEBBD8EE1B67512400E772A9 /* barberShopTableViewCell.xib in Resources */,
+				EEBBD8FC1B676AFC00E772A9 /* filter.png in Resources */,
+				EEBBD8D51B674EA900E772A9 /* LaunchScreen.xib in Resources */,
+				EEBBD8FB1B676AFC00E772A9 /* menu.png in Resources */,
+				EEBBD8D21B674EA900E772A9 /* Images.xcassets in Resources */,
+				EEBBD8F81B675C1500E772A9 /* star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBBD8D81B674EA900E772A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEBBD8BD1B674EA900E772A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBBD9181B678E4000E772A9 /* customSegue.m in Sources */,
+				EEBBD8CD1B674EA900E772A9 /* ViewController.m in Sources */,
+				EEBBD8CA1B674EA900E772A9 /* AppDelegate.m in Sources */,
+				EEBBD8C71B674EA900E772A9 /* main.m in Sources */,
+				EEBBD9211B67979700E772A9 /* BarberShopViewController.m in Sources */,
+				EEBBD91B1B67925D00E772A9 /* navigationViewController.m in Sources */,
+				EEBBD9131B67885200E772A9 /* barberShopTableViewCell.m in Sources */,
+				EEBBD91E1B6792FD00E772A9 /* unwindSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBBD8D61B674EA900E772A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBBD8E11B674EA900E772A9 /* PiraaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEBBD8DC1B674EA900E772A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEBBD8C01B674EA900E772A9 /* Piraa */;
+			targetProxy = EEBBD8DB1B674EA900E772A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEBBD8CE1B674EA900E772A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEBBD8CF1B674EA900E772A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEBBD8D31B674EA900E772A9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEBBD8D41B674EA900E772A9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEBBD8E21B674EA900E772A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEBBD8E31B674EA900E772A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEBBD8E51B674EA900E772A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Piraa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEBBD8E61B674EA900E772A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Piraa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEBBD8E81B674EA900E772A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiraaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piraa.app/Piraa";
+			};
+			name = Debug;
+		};
+		EEBBD8E91B674EA900E772A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiraaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piraa.app/Piraa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEBBD8BC1B674EA900E772A9 /* Build configuration list for PBXProject "Piraa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBBD8E21B674EA900E772A9 /* Debug */,
+				EEBBD8E31B674EA900E772A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEBBD8E41B674EA900E772A9 /* Build configuration list for PBXNativeTarget "Piraa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBBD8E51B674EA900E772A9 /* Debug */,
+				EEBBD8E61B674EA900E772A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEBBD8E71B674EA900E772A9 /* Build configuration list for PBXNativeTarget "PiraaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBBD8E81B674EA900E772A9 /* Debug */,
+				EEBBD8E91B674EA900E772A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEBBD8B91B674EA900E772A9 /* Project object */;
+}
