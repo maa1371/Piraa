@@ -71,6 +71,25 @@
             </objects>
             <point key="canvasLocation" x="1192" y="305"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="mWK-em-jFU">
+            <objects>
+                <viewController id="sIr-Sg-I2B" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bIo-kt-jFy"/>
+                        <viewControllerLayoutGuide type="bottom" id="A8g-zf-bBv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Ww-P3-zPC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4p1-6x-OfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1585.5" y="-499.5"/>
+        </scene>
         <!--Barber Shop View Controller-->
         <scene sceneID="2eS-Zf-Ju4">
             <objects>
@@ -235,7 +254,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="83p-cR-5Ps" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="841" y="305"/>
+            <point key="canvasLocation" x="765" y="305"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
